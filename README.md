@@ -1,6 +1,6 @@
 # Alurapic
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+Versão do angular utilizado [Angular CLI](https://github.com/angular/angular-cli) 13.3.0.
 
 ## Development server
 
