@@ -1,0 +1,12 @@
+<ap-search 
+    (onType) ="filter = $event"
+    [value] = "filter">
+</ap-search>
+
+<app-photos 
+    [photos]="photos | filterByDescription : filter">
+</app-photos>
+
+<app-load-button 
+    [hasMore]="hasMore" (click)="load()">
+</app-load-button>
